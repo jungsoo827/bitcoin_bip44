@@ -3,7 +3,8 @@ version: 0.1.1
 description: Library implementing Bitcoins BIP44 (HD wallet organization) specification in a Flutter friendly fashion.
 author: Kolibri POS authors <info@kolibripos.com>
 homepage: https://github.com/Kolibri-POS/bitcoin_bip32
-
+environment:
+  sdk: ">=2.1.0 <3.0.0"
 dependencies:
   bitcoin_bip32:
     git:
@@ -27,5 +28,4 @@ dev_dependencies:
       ref: f8079e9f52ac45d920c677e545316a6905eaf819
 
 
-environment:
-  sdk: ">=2.4.0 <3.0.0"
+
